@@ -1,0 +1,138 @@
+
+
+.review-main {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  background-color: #fff;
+}
+
+.review-container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 15px;
+}
+
+.review-heading {
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.review-heading h3 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.review-heading p {
+  color: #6c757d;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.review-box {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  padding: 0 15px;
+}
+.stars {
+  font-size: 20px;
+}
+.slick-slide {
+  padding: 0 8px;
+}
+.review-card {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0px;
+  height: 350px;
+}
+
+.review-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.stars {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.slick-prev.slick-arrow,
+.slick-next.slick-arrow {
+  display: none !important;
+}
+
+.custom-arrow {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: 0.5px solid #dfdada;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+  
+}
+
+.next-arrow {
+  right: -10px;
+}
+
+.prev-arrow {
+  left: -10px;
+}
+
+.review-card h3 {
+  font-size: 18px;
+}
+
+.review-card p {
+  font-size: 15px;
+}
+@media screen and (max-width: 1024px) {
+  .review-container {
+    margin: 0px auto;
+    max-width: 800px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .review-card {
+    padding: 15px 10px;
+  }
+  .review-card h3 {
+    font-size: 15px;
+  }
+
+  .review-card p {
+    font-size: 14px;
+  }
+
+  .review-heading h3 {
+    font-size: 28px;
+  }
+
+  .review-heading p {
+    font-size: 16px;
+  }
+}
